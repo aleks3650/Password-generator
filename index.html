@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <h1>Password Generator</h1>
+
+   <div class="GeneratedPassword">
+
+    <div class="Password"  >P4$$wOrD!</div>
+
+    <button class="copy" ><svg xmlns=http://www.w3.org/2000/svg height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#34da66}</style><path d="M384 336H192c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16l140.1 0L400 115.9V320c0 8.8-7.2 16-16 16zM192 384H384c35.3 0 64-28.7 64-64V115.9c0-12.7-5.1-24.9-14.1-33.9L366.1 14.1c-9-9-21.2-14.1-33.9-14.1H192c-35.3 0-64 28.7-64 64V320c0 35.3 28.7 64 64 64zM64 128c-35.3 0-64 28.7-64 64V448c0 35.3 28.7 64 64 64H256c35.3 0 64-28.7 64-64V416H272v32c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192c0-8.8 7.2-16 16-16H96V128H64z"/></svg><div class="alert">Copied!</div></button>
+
+   </div>
+
+    <div class="password-container">
+
+        <div class="char-length">
+
+            <p>Character length</p>
+
+            <div class="char-len">6</div>
+
+        </div>
+
+        <input type="range" name="text-length" min="1" max="13" class="text-range">
+
+        <label>
+
+            <input type="checkbox" class="Uppercase">
+
+            <p>Include uppercase Letters</p>
+
+        </label>
+
+        <label>
+
+            <input type="checkbox" class="Lowercase">
+
+            <p>Include lowercase Letters</p>
+
+        </label>
+
+        <label>
+
+            <input type="checkbox" class="Symbols">
+
+            <p>Include symbols</p>
+
+        </label>
+
+        <label>
+
+            <input type="checkbox" class="Numbers">
+
+            <p>Include numbers</p>
+
+        </label>
+
+       
+
+        <div class="strength-box">
+
+            <p>strength</p>
+
+            <div class="strength-level">
+
+                <div class="box-strength">
+
+                    <p class="Strength-text-lvl">Medium</p>
+
+                    <div class="box-level level1 active"></div>
+
+                    <div class="box-level level2 active"></div>
+
+                    <div class="box-level level3"></div>
+
+                    <div class="box-level level4"></div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <button class="generate">generate</button>
+
+    </div>
+
+
+ 
+
+   <script src="app.js"></script>
+
+</body>
+
+</html>
